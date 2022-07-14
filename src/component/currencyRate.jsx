@@ -100,7 +100,7 @@ const CurrencyRate = props => {
       setStateObj({...stateObj, amount: val});
   };
 
-  const url = `https://currency-svc.herokuapp.com/converter?from=${stateObj.from}&to=${stateObj.to}&amount=${stateObj.amount}`;
+  const url = `/converter?from=${stateObj.from}&to=${stateObj.to}&amount=${stateObj.amount}`;
   
   async function apiCall() { 
     try {

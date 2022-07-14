@@ -86,7 +86,7 @@ const PastExchangeRates = props => {
         setOptionList(list);
     }, []);
     
-    const url = `https://currency-svc.herokuapp.com/historical_rates/${stateObj.date}?base=${stateObj.base}`;
+    const url = `/historical_rates/${stateObj.date}?base=${stateObj.base}`;
     
     async function apiCall() { 
       try {

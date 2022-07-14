@@ -82,7 +82,7 @@ const ExchangeRates = props => {
         setOptionList(list);
     }, []);
     
-    const url = `https://currency-svc.herokuapp.com/latest_rates?base=${stateObj.base}`;
+    const url = `/latest_rates?base=${stateObj.base}`;
     
     async function apiCall() { 
       try {

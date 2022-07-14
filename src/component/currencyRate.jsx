@@ -105,7 +105,10 @@ const CurrencyRate = props => {
   async function apiCall() { 
     try {
       let res = await axios.get(url, {
-        headers: {'Access-Control-Allow-Origin': '*'}
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+        },
+        withCredentials: true
       });
       const data = await res.data;
       console.log(data);

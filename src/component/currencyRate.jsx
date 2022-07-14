@@ -107,7 +107,7 @@ const CurrencyRate = props => {
       let res = await axios.get(url, {
         headers: {
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Origin': 'https://main--rococo-biscuit-e1e8d8.netlify.app/',
         },
         withCredentials: true
       });

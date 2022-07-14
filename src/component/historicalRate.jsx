@@ -107,9 +107,8 @@ const HistoricalRate = props => {
     try {
       let res = await axios.get(url, {
         headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Headers': '*',
-          'Access-Control-Allow-Credentials': 'true'
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
         },
       });
       const data = await res.data;

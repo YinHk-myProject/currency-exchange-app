@@ -101,7 +101,7 @@ const HistoricalRate = props => {
       setStateObj({...stateObj, date: val});
   };
 
-  const url = `/past_converter/${stateObj.date}?from=${stateObj.from}&to=${stateObj.to}&amount=${stateObj.amount}`;
+  const url = `https://currency-svc.herokuapp.com/past_converter/${stateObj.date}?from=${stateObj.from}&to=${stateObj.to}&amount=${stateObj.amount}`;
   
   async function apiCall() { 
     try {

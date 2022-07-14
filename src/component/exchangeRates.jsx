@@ -86,7 +86,12 @@ const ExchangeRates = props => {
     
     async function apiCall() { 
       try {
-        let res = await axios.get(url);
+        let res = await axios.get(url, {
+          headers: {
+            'Content-Type': 'application/json;charset=UTF-8',
+            'Access-Control-Allow-Origin': '*'
+          },
+        });
         const data = await res.data;
         console.log(data);
         if(data) { 

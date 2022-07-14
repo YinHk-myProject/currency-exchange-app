@@ -106,6 +106,7 @@ const CurrencyRate = props => {
     try {
       let res = await axios.get(url, {
         headers: {
+          'Content-Type': 'application/json',
           'Access-Control-Allow-Origin': '*',
         },
         withCredentials: true

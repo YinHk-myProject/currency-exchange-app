@@ -58,5 +58,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://currency-svc.herokuapp.com:8080"
+  "proxy": "https://currency-svc.herokuapp.com"
 }

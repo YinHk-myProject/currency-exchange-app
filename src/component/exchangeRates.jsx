@@ -133,7 +133,7 @@ const ExchangeRates = props => {
     return (
         <div className={classes.wrapper}>
             <Typography className={classes.typography} gutterBottom variant="h5" component="p">
-                Exchange rates
+                Rates
             </Typography>
           <Grid container space={2} direction="row" justifyContent="center">
               <Grid item xs={12} sx={{margin: 3}}>

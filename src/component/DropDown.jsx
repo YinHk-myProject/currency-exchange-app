@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Select from 'react-select';
 
 const DropDown = props => {
@@ -54,7 +54,6 @@ const DropDown = props => {
         }),
         menu: provided => ({
           ...provided,
-          //margin: theme.spacing(0.5, -0.5),
           height: 'auto',
           width: '100%'
         }),

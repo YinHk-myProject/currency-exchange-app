@@ -1,25 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, EffectCube, Pagination } from 'swiper';
+import SwiperCore, { Autoplay } from 'swiper';
 import { createUseStyles } from 'react-jss';
 import  useWindowSize from '../utils/useWindowSize';
 import { Card, 
          CardContent,  
          Typography, 
-         Avatar,
          List, 
          ListItem,
          ListItemText,
          ListItemAvatar } from "@mui/material";
 
-// import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
-// import required modules
-//import { EffectCube, Pagination } from "swiper";
 
 
 const useStyles = createUseStyles({
@@ -98,7 +93,7 @@ const Carousel = props => {
                               <Typography
                                   component="p"
                                   variant="body2"
-                                  color='#ffffff'//"text.primary"
+                                  color='#ffffff'
                               >
                                 {element.currencyCode}
                               </Typography>} 
@@ -106,7 +101,7 @@ const Carousel = props => {
                               <Typography
                                   component="p"
                                   variant="body2"
-                                  color='#ffffff'//"text.primary"
+                                  color='#ffffff'
                               >
                                 {element.currencyName}
                               </Typography>} />

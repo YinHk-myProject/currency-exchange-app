@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Typography, Grid, TextField, Button, IconButton } from "@mui/material";
+import { Typography } from "@mui/material";
 import { createUseStyles } from 'react-jss'
 import WaveBorder from './WaveBorder';
 
@@ -16,9 +16,6 @@ const useStyles = createUseStyles({
         flexDirection: 'column',
         alignItems:'center',
         justifyContent: 'center'
-    },
-    waveBorder: {
-        //paddingTop: //theme.spacing(9)
     },
     typography: {
         color: "#8f9296"
@@ -110,7 +107,7 @@ const FooterSection = props => {
               Application designed and developed by Ken.
           </Typography> 
           <Typography className={classes.typography} paragraph>
-              &copy; Copyright {new Date().getFullYear()} YinHk. All Rights Reserved. 
+              &copy; {new Date().getFullYear()} YinHk. 
           </Typography>      
         </div>
       </footer>

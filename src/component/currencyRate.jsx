@@ -15,7 +15,6 @@ import Spinner from "./spinner";
 
 const useStyles = createUseStyles({
       wrapper: {
-        //borderStyle: 'dashed',
         width: '100%',
         height: '100%',
         marginTop: 50,

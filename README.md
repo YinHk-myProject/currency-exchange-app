@@ -5,6 +5,8 @@
 This web application is about checking latest currency rate and historical currency rate. 
 
 ![](./img/screen_capture1.png)
+![](./img/screen_capture2.png)
+
 
 ### Features:
  - Checking latest currency rate at each currency

@@ -4,6 +4,8 @@
 ### Description:
 This web application is about checking latest currency rate and historical currency rate. 
 
+![](./img/screen_capture1.png)
+
 ### Features:
  - Checking latest currency rate at each currency
  - Convert currency from one to another, to see the rate
@@ -12,3 +14,4 @@ This web application is about checking latest currency rate and historical curre
 Build with:
  - Front-end: React JS, JSS, MUI-5 and Axios
  - Back-end: Java8, Spring boot framework and heroku
+
